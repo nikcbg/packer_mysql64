@@ -5,7 +5,7 @@
 
 #### List of files in the repository
 
-- `http/preseed.cfg` - script that installs Ubuntu.
+- `http/preseed.cfg` - script that automatically installs Ubuntu.
 - `scripts/provision.sh` - script that installs `mysql`.
 - `template.json` - template with code for `packer` to create the image we want.
 - `test/integration/default/check_pkg.rb` - script needed by `kitchen` to check if `mysql` is installed. 
