@@ -14,7 +14,7 @@
 - `.kitchen.yml` - testing framework used by `ruby`.
 - `Gemfile` - used for `ruby` dependencies.
 
-### How to use this repository.
+### How to use this repository. 
 - Install `virtualbox` by following this [instructions](https://www.virtualbox.org/wiki/Downloads).
 - Install `vagrant` by following this [instructions](https://www.vagrantup.com/docs/installation/).
 - Install `packer` by following this [instructions](https://www.packer.io/intro/getting-started/install.html).
