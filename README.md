@@ -1,7 +1,7 @@
 # packer_mysql64
 
 ### Purpose of the repository 
-- The repository should have the minimal code for creating Ubuntu box with `Packer` and shoudl install `mysql` on it.
+- The repository should have the minimal code for creating Ubuntu box with `Packer` and should install `mysql` on it.
 
 #### List of files in the repository
 
