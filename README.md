@@ -71,7 +71,15 @@ rbenv ()
 ```
 
 - Execute `rbenv install 2.5.3` to install `ruby 2.5.3` version.
-- Execute `rbenv local 2.5.3` to set the default version of `ruby` to your local directory.
+- Execute `rbenv local 2.5.3` to set the demysql.service - MySQL Community Server
+   Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+   Active: active (running) since Tue 2018-11-20 11:36:07 UTC; 25min ago
+  Process: 778 ExecStartPost=/usr/share/mysql/mysql-systemd-start post (code=exited, status=0/SUCCESS)
+  Process: 753 ExecStartPre=/usr/share/mysql/mysql-systemd-start pre (code=exited, status=0/SUCCESS)
+ Main PID: 777 (mysqld)
+   CGroup: /system.slice/mysql.service
+           └─777 /usr/sbin/mysqld
+fault version of `ruby` to your local directory.
 - Execute `rbenv -v` to make sure `ruby` is installed and you have the correct version.
 - Execute `gem install bundler` to install `gem` which is package manager for `ruby`, the output will display the following:
 ```
@@ -87,4 +95,4 @@ Successfully installed bundler-1.17.1
 - Execute `bundle exec kitchen test` to automatically build, test and destroy `kitchen` environment.
 
 ### TO DO:
-- Check if `redis server` is installed and running. 
+- Check if `mysql` server is installed and running. 
